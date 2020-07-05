@@ -22,7 +22,7 @@
 
             font-size: 16px;
             transform: rotate(-75deg);
-            list-style-image: url("https://pminkevich.github.io/MyCV/asset/timeline/mobile.png");
+            list-style-image: url("./MyCV/asset/timeline/mobile.png");
         
             }
         .timeline hr{
@@ -92,7 +92,7 @@
         transform: rotate(-75deg);
         text-align: center;
         padding-right: 35px;
-        list-style-image: url("https://pminkevich.github.io/MyCV/asset/timeline/inicio.png");
+        list-style-image: url("./MyCV/asset/timeline/inicio.png");
 
 
         }
