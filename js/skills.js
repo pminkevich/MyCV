@@ -15,21 +15,21 @@ template:'<div class="skills"><div class="skillsdown">'+
 '<h4 class="titulo">{{skills.titulo}}</h4>'+
 '<p class="items">{{skills.contenido}}</p>'+
 '<div class="iconos-skills">'+
-   '<div><img src="/asset/net.png"></div>'+
-    '<div><img src="/asset/node.png"></div>'+
-    '<div><img src="/asset/angular.png"></div>'+
-    '<div><img src="/asset/ionic.png"></div>'+
+   '<div><img src="./asset/net.png"></div>'+
+    '<div><img src="./asset/node.png"></div>'+
+    '<div><img src="./asset/angular.png"></div>'+
+    '<div><img src="./asset/ionic.png"></div>'+
 
  '</div>'+
 '<p class="items">{{skills.continuacion}}</p>'+
 '<div class="iconos-skills">'+
-       '<div><img src="/asset/sqlserver.png"></div>'+
-        '<div><img src="/asset/mongo.png"></div>'+
-        '<div> <img src="/asset/firebase.png"></div>'+
+       '<div><img src="./asset/sqlserver.png"></div>'+
+        '<div><img src="./asset/mongo.png"></div>'+
+        '<div> <img src="./asset/firebase.png"></div>'+
 '</div>'+
 '<p class="items">{{skills.soy}}</p>'+
 '<div class="iconos-skills">'+
-    '<img src="/asset/gitskills.png">'+
+    '<img src="./asset/gitskills.png">'+
 '</div>'+
 '<p class="items">{{skills.fin}}</p>'+
 '<div  class="links arrow">'+
