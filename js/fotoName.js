@@ -1,7 +1,7 @@
 
 Vue.component('foto-name',{
 
-template:'<div><img src="/asset/MyPhoto.png">'+
+template:'<div><img src="/asset/photo.png">'+
 '<div class="nombre">'+
 '<h4>Minkevich, Pablo Sebastian</h4>'+
 '<h5>(Buenos Aires, Argentina)</h5>'+
