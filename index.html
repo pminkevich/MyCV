@@ -21,8 +21,8 @@
             <div v-if="show==false">
                 <div class="header">
                  <div class="icon">
-                         <div>
-                         <img src="./asset/littlephoto.png">
+                         <div v-on:click="show = !show">
+                            <router-link   to="/"><img src="./asset/littlephoto.png"></router-link>
                          </div>
                              <div class="nameheader">
                             <strong>Minkevich, Pablo Sebastian</strong>
