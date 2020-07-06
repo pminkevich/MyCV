@@ -3,8 +3,8 @@ data:function(){
     return {
         skills:{
             titulo:'Skills',
-            contenido:'Tengo  experiencia en el desarrollo de aplicaciones de escritorio con VB, VB .NET y C# , Apis Utilizando ASP .NET MVC y Node. Para el frontend HTML,CSS, JavaScript, Vue y Angular/IONIC. ',
-            continuacion:'En lo que respecta a Base de Datos he trabajado por muchos años con SQL SERVER y MySQL y  hoy cuento con experiencia trabajando con Base de datos no relacionales como MongoDB y Firebase',
+            contenido:'Tengo  experiencia en el desarrollo de aplicaciones de escritorio con VB, VB .NET y C# , Apis Utilizando ASP .NET MVC y Node. Para el frontend Suelo utilizar HTML,CSS, JavaScript, Vue y Angular. ',
+            continuacion:'En lo que respecta a Base de Datos he trabajado por muchos años con SQL SERVER y MySQL. Hoy cuento con experiencia trabajando con Base de datos no relacionales como MongoDB y Firebase',
             soy:'Soy muy organizado a la hora de encarar un proyecto utilizando las tecnologías y herramientas que son las adecuadas para una determinada tarea.',
             fin:'A la hora de Comenzar un Desarrollo tengo presente las buenas prácticas. Abordando el problema teniendo en cuenta paradigmas, principios y patrones adecuados. '
         }

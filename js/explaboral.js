@@ -42,7 +42,7 @@ Vue.component('exp-laboral',{
 
      
   '<h5 class="subtitulo"><strong>{{explaboral.trabajos[2].titulo}}</strong></h5>'+
- 
+  '<i class="itemsleft">{{explaboral.trabajos[2].anio}}</i>'+
      '<ul>'+
          '<li class="itemsleft">{{explaboral.trabajos[2].lista[0].ejemplo}}</li>'+
          '<li class="itemsleft">{{explaboral.trabajos[2].lista[1].ejemplo2}}</li>'+
