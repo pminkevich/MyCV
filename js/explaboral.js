@@ -29,32 +29,32 @@ Vue.component('exp-laboral',{
 
     }
  },
- template:'<div class="whitebox">'+
- '<h4 class="titulo">{{explaboral.titulo}} </h4>'+
-  '<h5 class="subtitulo"><strong>{{explaboral.trabajos[0].titulo}}</strong></h5>'+
-  '<i class="itemsleft">{{explaboral.trabajos[0].anio}}</i>'+
-     '<p class="itemsleft">{{explaboral.trabajos[0].contenido}}</p>'+
+ template:`<div class="whitebox">
+ <h4 class="titulo">{{explaboral.titulo}} </h4>
+  <h5 class="subtitulo"><strong>{{explaboral.trabajos[0].titulo}}</strong></h5>
+  <i class="itemsleft">{{explaboral.trabajos[0].anio}}</i>
+     <p class="itemsleft">{{explaboral.trabajos[0].contenido}}</p>
 
      
-  '<h5 class="subtitulo"><strong>{{explaboral.trabajos[1].titulo}}</strong></h5>'+
-  '<i class="itemsleft">{{explaboral.trabajos[1].anio}}</i>'+
-     '<p class="itemsleft">{{explaboral.trabajos[1].contenido}}</p>'+
+  <h5 class="subtitulo"><strong>{{explaboral.trabajos[1].titulo}}</strong></h5>
+  <i class="itemsleft">{{explaboral.trabajos[1].anio}}</i>
+     <p class="itemsleft">{{explaboral.trabajos[1].contenido}}</p>
 
      
-  '<h5 class="subtitulo"><strong>{{explaboral.trabajos[2].titulo}}</strong></h5>'+
-  '<i class="itemsleft">{{explaboral.trabajos[2].anio}}</i>'+
-     '<ul>'+
-         '<li class="itemsleft">{{explaboral.trabajos[2].lista[0].ejemplo}}</li>'+
-         '<li class="itemsleft">{{explaboral.trabajos[2].lista[1].ejemplo2}}</li>'+
-         '<li class="itemsleft">{{explaboral.trabajos[2].lista[2].ejemplo3}}</li>'+
-         '<li class="itemsleft">{{explaboral.trabajos[2].lista[3].ejemplo4}}</li>'+
-     '</ul>'+
-     '<div  class="links arrow">'+
-    '<div><router-link  class="links rightArrow" to="/Education">'+
-        'Go To Education '+
-       '</router-link>'+
-    '</div>'+
-'</div>'+
-'</div>'
+  <h5 class="subtitulo"><strong>{{explaboral.trabajos[2].titulo}}</strong></h5>
+  <i class="itemsleft">{{explaboral.trabajos[2].anio}}</i>
+     <ul>'+
+         <li class="itemsleft">{{explaboral.trabajos[2].lista[0].ejemplo}}</li>
+         <li class="itemsleft">{{explaboral.trabajos[2].lista[1].ejemplo2}}</li>
+         <li class="itemsleft">{{explaboral.trabajos[2].lista[2].ejemplo3}}</li>
+         <li class="itemsleft">{{explaboral.trabajos[2].lista[3].ejemplo4}}</li>
+     </ul>
+     <div  class="links arrow">
+    <div><router-link  class="links rightArrow" to="/Education">
+        Go To Education 
+      </router-link>
+    </div>
+</div>
+</div>`
 
 });

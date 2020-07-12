@@ -1,13 +1,12 @@
 Vue.component('interest',{
-    template:'<div class="refprof">'+
-    '<h4 class="titulo">{{interest.titulo}}</h4>'+
-    '<p>{{interest.intro}}</p>'+
-    ''+
-    '<p>{{interest.content}}</p>'+
-    ''+
-    '<div style="text-align: right;"><p><strong><i>{{interest.frase}}</i></strong></p>'+
-    '<p style="font-size: 14px;"><i>{{interest.jonk}}</i></p></div>'+
-    '</div>',
+    template:`<div class="refprof">
+    <h4 class="titulo">{{interest.titulo}}</h4>
+    <p>{{interest.intro}}</p>
+    <p>{{interest.content}}</p>
+    
+    <div style="text-align: right;"><p><strong><i>{{interest.frase}}</i></strong></p>
+    <p style="font-size: 14px;"><i>{{interest.jonk}}</i></p></div>
+    </div>`,
     data: function(){
 
         return {interest: {

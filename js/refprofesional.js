@@ -1,10 +1,10 @@
 
 Vue.component('ref-profesional',{
-    template:'<div class="refprof">'+
-    '<h4 class="titulo">{{refprofesional.titulo}}</h4>'+
-    '<p><i>{{refprofesional.contenido}}</i></p>'+
+    template:`<div class="refprof">
+    <h4 class="titulo">{{refprofesional.titulo}}</h4>
+    <p><i>{{refprofesional.contenido}}</i></p>
  
-    '</div>',
+    </div>`,
     data: function(){
 
         return {refprofesional: {
