@@ -3,9 +3,9 @@ Vue.component('timeline',{
 
 template:`<div class="timeline" >
 <br>
-   <div  v-if="windowEnable" class="windowBox"><div class="closeButton btn btn-dark btn-sm float-right">x</div>{{windowContent}}</div>
+   <div  v-if="windowEnable" class="windowBox" ><div class="closeButton btn btn-dark btn-sm float-right">x</div><div v-html="windowContent"></div></div>
 <ul>
-    <li v-on:mouseleave="windowClose()" v-on:mouseover="windowOpen(index)" v-for="(items, index) in timeline"   class="timeitems" >
+    <li v-on:mouseleave="windowClose(index)" v-on:mouseover="windowOpen(index)" v-for="(items, index) in timeline"   class="timeitems" >
     <hr><p ><strong>{{items.tittle}}</strong></p> 
     </li>
     
@@ -16,8 +16,10 @@ template:`<div class="timeline" >
 <br>
 
 </div>`,
+// props:{windowContent:String},
 data: function(){
     return {
+        windowContent:'',
         windowEnable:false,
         timeline:[
             {
@@ -45,8 +47,8 @@ data: function(){
                 content:'Nace SitiosWebGratis'
             },
             {
-                tittle:'2018', 
-                content:'Nueva Etapa'
+                tittle:'2020', 
+                content:'Proyecto Callcenter <br><a href="www.google.com.ar">Ver Video</a>'
             }
         ],
     }
@@ -58,8 +60,11 @@ methods:{
         
         
     },
-    windowClose: function(){
-        this.windowEnable=false;
+    windowClose: function(index){
+        if(index!=6){
+            this.windowEnable=false;
+       
+        }
        
     }
 }

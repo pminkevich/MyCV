@@ -41,7 +41,6 @@ routes:[
 var app = new Vue({
     el: '#app',
     router,
-    props:{windowContent:String},
     data: {
         sobre:false,
         clase:'skillsdown',
