@@ -3,9 +3,10 @@ Vue.component('timeline',{
 
 template:`<div class="timeline" >
 <br>
-   <div  v-if="windowEnable" class="windowBox" ><div class="closeButton btn btn-dark btn-sm float-right">x</div><div v-html="windowContent"></div></div>
+<div  v-if="videoEnable" class="videoBox" ><div  class="closeButton btn btn-dark btn-sm float-right">x</div><div v-html="videoContent"></div></div>
+   <div  v-if="windowEnable" class="windowBox" ><div v-on:click="windowClose()" class="closeButton btn btn-dark btn-sm float-right">x</div><div v-html="windowContent"></div></div>
 <ul>
-    <li v-on:mouseleave="windowClose(index)" v-on:mouseover="windowOpen(index)" v-for="(items, index) in timeline"   class="timeitems" >
+    <li  v-on:mouseover="windowOpen(index)" v-for="(items, index) in timeline"   class="timeitems" >
     <hr><p ><strong>{{items.tittle}}</strong></p> 
     </li>
     
@@ -20,6 +21,8 @@ template:`<div class="timeline" >
 data: function(){
     return {
         windowContent:'',
+        videoContent:'<p>content</p',
+        videoEnable:false,
         windowEnable:false,
         timeline:[
             {
@@ -48,7 +51,7 @@ data: function(){
             },
             {
                 tittle:'2020', 
-                content:'Proyecto Callcenter <br><a href="www.google.com.ar">Ver Video</a>'
+                content:'Proyecto Callcenter <br><a href="https://youtu.be/cJgs_-9NSEA" target="_blank">Ver Video</a>'
             }
         ],
     }
@@ -57,16 +60,25 @@ methods:{
     windowOpen: function(index){
         this.windowEnable=true;
         this.windowContent=this.timeline[index].content;
-        
-        
-    },
-    windowClose: function(index){
-        if(index!=6){
-            this.windowEnable=false;
-       
-        }
-       
-    }
-}
+         
+        },
+        windowClose: function(){
+            
 
-})
+         
+                 this.windowEnable=false;
+                
+             }
+        // videoOpen: function(){
+          
+        //     this.videoEnable=true;
+          
+        // }
+    },
+   
+        
+        
+    }
+    
+
+)
