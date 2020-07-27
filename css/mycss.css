@@ -10,6 +10,23 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
     font-family: Arial;
 }
+[v-cloak]>*{
+display:none;
+}
+[v-cloak]{
+    content:"";
+    width:100px;
+    height: 100px;
+   position: absolute;
+   top:50% ;
+   left:50%;
+   margin-top: -50px;
+   margin-left: -50px;
+    background-image: url("../asset/Myload.gif") ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
 .skills{
     display: flex;
     justify-content: space-around;
