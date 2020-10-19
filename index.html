@@ -41,10 +41,10 @@
                      <div class="lista">
                          
                         
-                            <li><strong v-if="$router.currentRoute.path='Skills'"><router-link  to="/Skills">Skills</router-link></strong></li>
-                            <li><strong v-if="$router.currentRoute.path='Experience'"><router-link  to="/Experience">Experience</router-link></strong></li>
-                            <li><strong v-if="$router.currentRoute.path='Education'"><router-link  to="/Education">Education</router-link></strong></li>
-                            <li><strong v-if="$router.currentRoute.path='Interest'"><router-link  to="/Interest">Interest</router-link></strong></li>
+                            <li ><router-link v-bind:class="{ ruta: $route.path =='/Skills'}" to="/Skills">Skills</router-link></li>
+                            <li><router-link v-bind:class="{ ruta: $route.path =='/Experience'}"  to="/Experience">Experience</router-link></li>
+                            <li><router-link v-bind:class="{ ruta: $route.path =='/Education'}"  to="/Education">Education</router-link></li>
+                            <li><router-link v-bind:class="{ ruta: $route.path =='/Interest'}"  to="/Interest">Interest</router-link></li>
                        
                           
                        </div>
@@ -60,7 +60,7 @@
         </transition>
         
         <hr v-if="show">
-        <br>
+  
         <div class="routes" v-if="show==false">
            
             <hr>

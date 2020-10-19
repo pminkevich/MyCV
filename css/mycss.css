@@ -362,8 +362,16 @@ img{
       .lista   li a{
         color:black;
         text-decoration: none;
+        font-size: 13px;
       }
-    
+      .lista   li a:active{
+        color:green;
+        text-decoration: none;
+      }
+      .lista   li a:hover{
+        color:green;
+        text-decoration: none;
+      }
       /* The actual line being placed before each list item, tweak width and color as appropriate */
       .lista li:before {
         background-color:rgba(48, 161, 121, 1);
@@ -403,6 +411,12 @@ img{
     
       /* Stop the line short on the final list item */
       .lista li:last-child:before { height: 6px; }
+      .ruta{
+       
+         font-weight: bold;
+      
+          
+      }
 
     @media(min-width:501px) and (max-width:600px){
        

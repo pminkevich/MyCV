@@ -45,6 +45,10 @@ var app = new Vue({
         sobre:false,
         clase:'skillsdown',
         show: true
-         }
-    
+         },
+         computed: {
+            currentRouteName() {
+                return this.$route.name;
+            }
+        }
   }).$mount('#app');
