@@ -18,7 +18,7 @@ template:`<div class="skills"><div class="skillsdown">
    <div><img src="./asset/net.png"></div>
     <div><img src="./asset/node.png"></div>
     <div><img src="./asset/angular.png"></div>
-    <div><img src="./asset/ionic.png"></div>
+    <div><img src="./asset/vuelogo.png"></div>
 
 </div>
 <p class="items">{{skills.continuacion}}</p>
