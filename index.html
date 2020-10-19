@@ -19,10 +19,10 @@
 <div id="app" v-cloak>
     <div  class="container">
         <transition name="fade">
-            <div v-if="show==false">
+            <div v-if="$route.path !='/'">
                 <div class="header">
                  <div class="icon">
-                         <div v-on:click="show = !show">
+                         <div >
                             <router-link   to="/"><img class="fotoCardSmall" src="./asset/littlephoto.png"></router-link>
                          </div>
                              <div class="nameheader">
@@ -52,19 +52,19 @@
             </div>
          </transition>
         <transition name="fade">
-           <div v-if="show">
+           <div v-if="$route.path =='/'">
             <foto-name ></foto-name>
            </div>
            
           
         </transition>
         
-        <hr v-if="show">
+        <hr v-if="$route.path !='/'">
   
-        <div class="routes" v-if="show==false">
+        <div class="routes" v-if="$route.path !='/'">
            
             <hr>
-             <nav v-on:click="show = !show"  ><router-link   to="/">Home</router-link>{{$route.path}}</nav>
+             <nav><router-link   to="/">Home</router-link>{{$route.path}}</nav>
              <hr>
         </div>
         
@@ -78,7 +78,7 @@
            
             
            
-            <div v-if="show" class="links">
+            <div v-if="$route.path =='/'" class="links">
                 <div><router-link  class="links" to="/Skills"><button v-on:click="show = !show">
                     My Skills
                    </button></router-link>
