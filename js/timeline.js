@@ -7,7 +7,9 @@ template:`<div class="timeline" >
    <div  v-if="windowEnable" class="windowBox" ><div v-on:click="windowClose()" class="closeButton btn btn-dark btn-sm float-right">x</div><div v-html="windowContent"></div></div>
 <ul>
     <li  v-on:mouseover="windowOpen(index)" v-for="(items, index) in timeline"   class="timeitems" >
-    <hr><p ><strong>{{items.tittle}}</strong></p> 
+    <hr  v-if="index < 1" style="opacity: 0.0">
+    <hr  v-if="index > 0" >
+     <p><strong>{{items.tittle}}</strong></p> 
     </li>
     
 </ul>
@@ -25,10 +27,10 @@ data: function(){
         videoEnable:false,
         windowEnable:false,
         timeline:[
-            {
-            tittle:'Inicio', 
-            content:'Comencé a programar en Pascal en una XT-286'
-            },
+            // {
+            // tittle:'Inicio', 
+            // content:'Comencé a programar en Pascal en una XT-286'
+            // },
             {
             tittle:'2000', 
             content:'Desarrolle una Aplicación para el Servicio de Ortopedia y Traumatología del Hospital Paroissiene'
