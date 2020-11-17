@@ -21,8 +21,8 @@ Vue.component('exp-laboral', {
                     anio: '(2020)',
                     lista: [{ ejemplo: 'Sistema de Gestión CallCenter (Desktop App + Web Api + PWA)' },
                     { ejemplo2: 'App Web Estudio de Abogadas (En Desarrollo)' },
-                    { ejemplo3: 'Proyecto Colaborativo Empresa de Transporte Colombia' },
-                    { ejemplo4: 'Nuevo sitio de indumov.com (En Etapa de Diseño)' }
+                    { ejemplo3: 'Proyecto Colaborativo Empresa de Transporte en Colombia' },
+                    { ejemplo4: 'Nuevo sitio de indumov.com (Proximamente...)' }
                     ]
                 }]
             }
