@@ -9,12 +9,12 @@ data: function(){
             lugares:[{
                 titulo:'ANALISTA DE SISTEMA:',
                 contenido:'(Instituto 46)',
-                detalle:'En Curso'
+                detalle:'Finalizado'
             },
             {
                 titulo:'PROGRAMACIÓN:',
-                contenido:'(Club del Programador)',
-                detalle:'Programación orientada a objetos con C#. Conocimientos en SQL, MySQL y SQL Server.'
+                contenido:'(On line)',
+                detalle:'Soy un apasionado del desarrollo de software con experiencia en C#, TypeScript, JavaScript, HTML, y CSS, así como en los frameworks Angular, Node.js, Nest.js y ASP.NET Core. También tengo habilidades en el manejo de bases de datos SQL Server, MongoDB y Firebase'
             },
             {
                 titulo:'CARRERA CCNA:',

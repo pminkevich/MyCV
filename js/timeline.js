@@ -53,7 +53,11 @@ Vue.component('timeline', {
                 },
                 {
                     tittle: '2020',
-                    content: 'Proyecto Callcenter <br><a href="https://youtu.be/UsI5Zclac50" target="_blank">Ver Video</a>'
+                    content: 'Proyecto Callcenter <br><a href="https://www.youtube.com/watch?v=cJgs_-9NSEA" target="_blank">Ver Video</a>'
+                },
+                {
+                    tittle: '2021',
+                    content: 'Desarrollo para Januus <br><br><a href="https://app.januus.com" target="_blank">Link App</a><br><a href="https://januus.com" target="_blank">Link Site</a>'
                 }
             ],
         }

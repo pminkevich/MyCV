@@ -18,11 +18,12 @@ Vue.component('exp-laboral', {
                 },
                 {
                     titulo: 'DESARROLLOS:',
-                    anio: '(2020)',
+                    anio: '(2020- 2024)',
                     lista: [{ ejemplo: 'Sistema de Gestión CallCenter (Desktop App + Web Api + PWA)' },
                     { ejemplo2: 'App Web Estudio de Abogadas (En Desarrollo)' },
                     { ejemplo3: 'Proyecto Colaborativo Empresa de Transporte en Colombia' },
-                    { ejemplo4: 'Nuevo sitio de indumov.com (Proximamente...)' }
+                    { ejemplo4: 'Desarrollo proyecto Januus' },
+                    { ejemplo5: 'Nuevo sitio de indumov.com (Proximamente...)' }
                     ]
                 }]
             }
@@ -46,11 +47,7 @@ Vue.component('exp-laboral', {
      <ul>
          <li class="itemsleft"><strong>{{explaboral.trabajos[2].lista[0].ejemplo}}</strong> 
          <br>
-         <a href="https://youtu.be/UsI5Zclac50" target="_blank">Ver Video Proyecto Completo</a>
-         <br>
-         <a href="https://callcenter-81703.web.app/login">Link de la PWA</a>
-         <br>
-         <a href="https://mycallapp-6fb21.web.app/home">Link de la Web App</a>
+         <a href="https://www.youtube.com/watch?v=cJgs_-9NSEA" target="_blank">Ver Video Proyecto Completo</a>
          <br>
           <a href="https://github.com/pminkevich/Repos/tree/master/CallcenterAPI">Api en Net Core</a>
          </li>
@@ -62,7 +59,13 @@ Vue.component('exp-laboral', {
          <br>
         <a href="https://proyecto-ed3ff.web.app/login">Link del Sitio</a>
          </li>
-         <li class="itemsleft"><strong>{{explaboral.trabajos[2].lista[3].ejemplo4}}</strong></li>
+         <li class="itemsleft"><strong>{{explaboral.trabajos[2].lista[3].ejemplo4}}</strong>
+         <br>
+        <a href="https://januus.com">Link del Sitio</a>
+        <br>
+        <a href="https://app.januus.com">Link del la Web App</a>
+         </li>
+         <li class="itemsleft"><strong>{{explaboral.trabajos[2].lista[4].ejemplo5}}</strong></li>
      </ul>
      <div  class="links arrow">
     <div><router-link  class="links rightArrow" to="/Education">
