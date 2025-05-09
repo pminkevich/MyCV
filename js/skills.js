@@ -25,11 +25,13 @@ template:`<div class="skills"><div class="skillsdown">
 <div class="iconos-skills">
       <div><img src="./asset/sqlserver.png"></div>
        <div><img src="./asset/mongo.png"></div>
-       <div> <img src="./asset/firebase.png"></div>
+       <div> <img src="./asset/mysql.png" width=80></div>
 </div>
 <p class="items">{{skills.soy}}</p>
 <div class="iconos-skills">
-   '<img src="./asset/gitskills.png">
+       <div><img src="./asset/aws.png" width=80></div>
+       <div><img src="./asset/gc.png" width=100></div>
+       <div> <img src="./asset/kubernetes.png" width=140></div>
 </div>
 <p class="items">{{skills.fin}}</p>
 <div  class="links arrow">

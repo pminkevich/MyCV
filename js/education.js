@@ -22,9 +22,9 @@ data: function(){
                 detalle:'Diseño Lan, Diseño wan, programación de Router´s  y Switches CISCO'
             },
             {
-              titulo:'PROGRAMACIÓN DE EQUIPOS TRANSCEPTORES:',
-              contenido:'(HIGHRADIO)',
-              detalle:'Bases y handies Motorola, Kenwood, Tait, ICOM'  
+              titulo:'DEVOPS:',
+              contenido:'(UTN)',
+              detalle:'Experiencia utilizando Docker y Kubernetes, y en la implementación de pipelines de integración y entrega continua (CI/CD).'  
             }]
 
             
